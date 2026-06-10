@@ -6,7 +6,7 @@ on:
 
 jobs:
   close-issues-during-weekend:
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, macos-or-linux]
     permissions:
       contents: read
       issues: write

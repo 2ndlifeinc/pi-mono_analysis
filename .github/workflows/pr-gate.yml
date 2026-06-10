@@ -6,7 +6,7 @@ on:
 
 jobs:
   check-contributor:
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, macos-or-linux]
     permissions:
       contents: read
       issues: write

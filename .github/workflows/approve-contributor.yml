@@ -7,7 +7,7 @@ on:
 jobs:
   approve:
     if: ${{ !github.event.issue.pull_request }}
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, macos-or-linux]
     permissions:
       contents: write
       issues: write
